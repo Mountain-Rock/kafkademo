@@ -15,7 +15,6 @@ import kafka.message.MessageAndOffset;
 import java.nio.ByteBuffer;
 import java.util.Collections;
 import java.util.List;
-import java.util.concurrent.Exchanger;
 
 /**
  * 1. 从所有活跃的broker中找出哪个是指定Topic（主题） Partition（分区）中的leader broker
